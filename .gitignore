@@ -6,3 +6,6 @@
 
 # SvelteKit folder
 **/.svelte-kit/
+
+# Other files & folders
+**/.wrangler/
