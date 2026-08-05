@@ -1,0 +1,12 @@
+{
+    "name": "dayseven.dev",
+    "private": true,
+    "workspaces": [
+        "site"
+    ],
+    "scripts": {
+        "site-dev": "bun run --filter site dev",
+        "site-build": "bun run --filter site build",
+        "site-check": "bun run --filter site check"
+    }
+}
