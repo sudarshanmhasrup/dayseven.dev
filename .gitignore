@@ -1,2 +1,11 @@
 # Idea configuration folder
 .idea
+
+# Node modules folder
+**/node_modules/
+
+# SvelteKit folder
+**/.svelte-kit/
+
+# Other files & folders
+**/.wrangler/
