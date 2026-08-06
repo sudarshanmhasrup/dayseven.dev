@@ -16,7 +16,7 @@ An open-source, self-hostable platform for developers to manage their network, o
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="/assets/dark/compose-multiplatform-logo.svg" />
     <source media="(prefers-color-scheme: light)" srcset="/assets/light/compose-multiplatform-logo.svg" />
-    <img alt="Compose Multiplatform" height="18" src="/assets/light/compose-multiplatform-logo.svg" />
+    <img alt="Compose Multiplatform" height="20" src="/assets/light/compose-multiplatform-logo.svg" />
 </picture>
 
 </div>
