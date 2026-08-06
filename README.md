@@ -11,7 +11,7 @@ An open-source, self-hostable platform for developers to manage their network, o
     <source media="(prefers-color-scheme: dark)" srcset="/assets/dark/kotlin-multiplatform-logo.svg" />
     <source media="(prefers-color-scheme: light)" srcset="/assets/light/kotlin-multiplatform-logo.svg" />
     <img alt="Kotlin Multiplatform" height="18" src="/assets/light/kotlin-multiplatform-logo.svg" />
-</picture>
+</picture>&nbsp;&nbsp;
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="/assets/dark/compose-multiplatform-logo.svg" />
