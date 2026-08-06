@@ -5,6 +5,6 @@
 
 # Welcome to the DaySeven repository
 
-**An open-source, self-hostable platform for developers to manage their network, outreach, and career growth.**
+An open-source, self-hostable platform for developers to manage their network, outreach, and career growth.
 
 </div>
