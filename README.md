@@ -20,7 +20,7 @@ An open-source, self-hostable platform for developers to manage their network, o
 </picture>&nbsp;
 
 <picture>
-    <img alt="Svelte Loog" height="20" src="/assets/global/svelte-logo.svg" />
+    <img alt="Svelte Logo" height="20" src="/assets/global/svelte-logo.svg" />
 </picture>
 
 </div>
