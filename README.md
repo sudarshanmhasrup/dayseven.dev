@@ -4,7 +4,7 @@
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="/assets/dark/github-repo-logo.svg" />
     <source media="(prefers-color-scheme: light)" srcset="/assets/light/github-repo-logo.svg" />
-    <img alt="DaySeven Logo" height="80" src="/assets/light/github-repo-logo.svg">
+    <img alt="DaySeven Logo" height="100" src="/assets/light/github-repo-logo.svg">
 </picture>
 
 # Welcome to the DaySeven repository
