@@ -26,3 +26,8 @@ An open-source, self-hostable platform for developers to manage their network, o
 </picture>
 
 </div>
+
+### About DaySeven 💜
+
+> [!TIP]
+> If you like DaySeven, consider giving the repository a star. It helps more developers discover the project!
