@@ -35,3 +35,15 @@ An open-source, self-hostable platform for developers to manage their network, o
 
 > [!TIP]
 > If you like DaySeven, consider giving the repository a star. It helps more developers discover the project!
+
+Building relationships with the people working in your industry is really important in the career of any individual. For
+developers, this becomes more important as networking is equal to **better opportunities** & **better career growth**.
+
+Developers meet people everywhere: **LinkedIn**, **GitHub**, **X**, **communities**, **conferences**, and
+**workplaces**. But keeping track of who you met where and remembering to reach out to them from time to time is hard
+and very manual.
+
+**DaySeven** helps developers solve this problem.
+
+It gives developers a place to **organise their professional network**, **manage outreach**, **keep context**, and
+**build relationships** that can grow throughout their careers.
