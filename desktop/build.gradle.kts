@@ -27,7 +27,7 @@ kotlin {
 
 compose {
     resources {
-        generateResClass = always
+        generateResClass = never
         packageOfResClass = libs.versions.desktop.packageOfResClass.get()
         customDirectory(
             sourceSetName = "desktopMain",
