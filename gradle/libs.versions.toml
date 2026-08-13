@@ -9,6 +9,10 @@ desktop-version = "1.0.0"
 desktop-mainClass = "dev.dayseven.app.AppKt"
 desktop-packageOfResClass = "dev.dayseven.app.desktop.resources"
 
+# desktop module's distribution information
+desktop-distributionPackageName = "DaySeven"
+desktop-distributionPackageVersion = "26.0.0"
+
 [libraries]
 
 [bundles]
