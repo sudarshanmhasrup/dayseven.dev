@@ -39,3 +39,8 @@ gradle.beforeProject {
         layout.buildDirectory.set(rootProject.layout.projectDirectory.dir(".build/project"))
     }
 }
+
+val appModules = setOf("desktop")
+appModules.forEach { module ->
+    include(":$module")
+}
