@@ -44,3 +44,9 @@ val appModules = setOf("desktop")
 appModules.forEach { module ->
     include(":$module")
 }
+
+gradle.beforeProject {
+    if (name in appModules) {
+        layout.buildDirectory.set(rootProject.layout.projectDirectory.dir(".build/$name"))
+    }
+}
