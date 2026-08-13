@@ -47,3 +47,34 @@ and very manual.
 
 It gives developers a place to **organise their professional network**, **manage outreach**, **keep context**, and
 **build relationships** that can grow throughout their careers.
+
+### Running the App
+
+#### Desktop
+
+The desktop application is built with Compose Multiplatform and supports Windows, macOS, and Linux. During development,
+you can run it normally or with Compose Hot Reload for a faster development experience.
+
+#### Run
+
+```bash
+./gradlew :desktop:run
+```
+
+#### Compose Hot Reload
+
+Run with Compose Hot Reload enabled:
+
+```bash
+./gradlew :desktop:hotRunDesktop --autoReload
+```
+
+Or use the short form:
+
+```bash
+./gradlew :desktop:hotRunDesktop --auto
+```
+
+With automatic reload enabled, changes are applied as soon as you save your files without restarting the application.
+Compose Hot Reload updates supported UI changes in real time, preserving your running app for a faster development
+workflow.
