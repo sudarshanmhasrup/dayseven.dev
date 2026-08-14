@@ -8,6 +8,13 @@ composeMultiplatform = "1.11.1"
 android-group = "dev.dayseven.app"
 android-version = "1.0.0"
 
+# android module's android app package information
+android-compileSdk = "37"
+android-minSdk = "24"
+android-targetSdk = "37"
+android-versionCode = "1"
+android-versionName = "26.0.0"
+
 # desktop module's configuration information
 desktop-group = "dev.dayseven.app"
 desktop-version = "1.0.0"
