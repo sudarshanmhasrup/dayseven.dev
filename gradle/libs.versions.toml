@@ -1,7 +1,20 @@
 [versions]
 # Library and plugin versions
 kotlin = "2.4.10"
+androidGradlePlugin = "9.3.1"
 composeMultiplatform = "1.11.1"
+activity = "1.13.0"
+
+# android module's configuration information
+android-group = "dev.dayseven.app"
+android-version = "1.0.0"
+
+# android module's android app package information
+android-compileSdk = "37"
+android-minSdk = "24"
+android-targetSdk = "37"
+android-versionCode = "1"
+android-versionName = "26.0.0"
 
 # desktop module's configuration information
 desktop-group = "dev.dayseven.app"
@@ -14,10 +27,12 @@ desktop-distributionPackageName = "DaySeven"
 desktop-distributionPackageVersion = "26.0.0"
 
 [libraries]
+activity = { module = "androidx.activity:activity-compose", version.ref = "activity" }
 
 [bundles]
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 compose-multiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
