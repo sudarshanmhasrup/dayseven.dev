@@ -1,6 +1,7 @@
 [versions]
 # Library and plugin versions
 kotlin = "2.4.10"
+androidGradlePlugin = "9.3.1"
 composeMultiplatform = "1.11.1"
 
 # desktop module's configuration information
@@ -19,5 +20,6 @@ desktop-distributionPackageVersion = "26.0.0"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 compose-multiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
