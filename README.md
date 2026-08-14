@@ -45,7 +45,7 @@ and very manual.
 
 **DaySeven** helps developers solve this problem.
 
-It gives developers a place to **organise their professional network**, **manage outreach**, **keep context**, and
+It gives developers a place to **organize their professional network**, **manage outreach**, **keep context**, and
 **build relationships** that can grow throughout their careers.
 
 ### Running the App
