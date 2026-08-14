@@ -35,3 +35,7 @@ android {
         compose = true
     }
 }
+
+dependencies {
+    implementation(libs.activity)
+}
