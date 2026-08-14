@@ -50,6 +50,34 @@ It gives developers a place to **organise their professional network**, **manage
 
 ### Running the App
 
+DaySeven supports two platforms:
+
+- **Android**: Compose Multiplatform + Kotlin Multiplatform
+- **Desktop**: Compose Multiplatform + Kotlin Multiplatform
+
+Follow the instructions below to build and run each target locally.
+
+#### Android
+
+The Android application is built with Compose Multiplatform. Follow the instructions below to install and launch the
+application on a connected device or running emulator.
+
+#### Install
+
+Install the debug build on a connected device or running emulator:
+
+```bash
+./gradlew :android:installDebug
+```
+
+#### Launch
+
+Launch the installed application:
+
+```bash
+adb shell am start -n dev.dayseven.app/.MainActivity
+```
+
 #### Desktop
 
 The desktop application is built with Compose Multiplatform and supports Windows, macOS, and Linux. During development,
