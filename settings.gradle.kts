@@ -40,7 +40,7 @@ gradle.beforeProject {
     }
 }
 
-val appModules = setOf("desktop")
+val appModules = setOf("android", "desktop")
 appModules.forEach { module ->
     include(":$module")
 }
