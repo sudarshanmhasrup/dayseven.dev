@@ -16,4 +16,8 @@ kotlin {
             jvmTarget = JvmTarget.JVM_11
         }
     }
+
+    android {
+        namespace = libs.versions.designSystem.group.get()
+    }
 }
