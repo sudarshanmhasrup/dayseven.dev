@@ -50,3 +50,14 @@ gradle.beforeProject {
         layout.buildDirectory.set(rootProject.layout.projectDirectory.dir(".build/$name"))
     }
 }
+
+val individualModules = setOf(":design-system")
+individualModules.forEach { module ->
+    include(":$module")
+}
+
+gradle.beforeProject {
+    if (name in individualModules) {
+        layout.buildDirectory.set(rootProject.layout.projectDirectory.dir(".build/$name"))
+    }
+}
