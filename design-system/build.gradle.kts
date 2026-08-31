@@ -8,3 +8,11 @@ plugins {
 
 group = libs.versions.designSystem.group.get()
 version = libs.versions.designSystem.version.get()
+
+kotlin {
+    jvm("desktop") {
+        compilerOptions {
+            jvmTarget = JvmTarget.JVM_11
+        }
+    }
+}
