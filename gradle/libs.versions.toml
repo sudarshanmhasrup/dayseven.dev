@@ -34,6 +34,7 @@ designSystem-version = "1.0.0"
 [libraries]
 activity = { module = "androidx.activity:activity-compose", version.ref = "activity" }
 splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "splashScreen" }
+compose-multiplatform-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
 
 [bundles]
 
