@@ -28,6 +28,10 @@ desktop-distributionPackageName = "DaySeven"
 desktop-distributionPackageVersion = "26.0.0"
 
 # design-system module's configuration information
+compose-group = "dev.dayseven.app.compose"
+compose-version = "1.0.0"
+
+# design-system module's configuration information
 designSystem-group = "dev.dayseven.app.design.system"
 designSystem-version = "1.0.0"
 
