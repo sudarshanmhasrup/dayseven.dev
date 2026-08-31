@@ -27,6 +27,10 @@ desktop-packageOfResClass = "dev.dayseven.app.desktop.resources"
 desktop-distributionPackageName = "DaySeven"
 desktop-distributionPackageVersion = "26.0.0"
 
+# design-system module's configuration information
+designSystem-group = "dev.dayseven.app.design.system"
+designSystem-version = "1.0.0"
+
 [libraries]
 activity = { module = "androidx.activity:activity-compose", version.ref = "activity" }
 splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "splashScreen" }
