@@ -51,7 +51,7 @@ gradle.beforeProject {
     }
 }
 
-val individualModules = setOf(":compose", ":design-system")
+val individualModules = setOf("compose", "design-system")
 individualModules.forEach { module ->
     include(":$module")
 }
